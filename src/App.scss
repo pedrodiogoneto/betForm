@@ -1,0 +1,72 @@
+/* ----- COLORS ----- */
+
+$background-grey: rgb(229,229,229);
+$label-grey: rgb(171,171,171);
+$border-grey: rgb(214,214,214);
+
+
+/* ----- SPACINGS ----- */
+
+.spacingBottom {
+
+  &__5 {
+    margin-bottom: 5%;
+  }
+}
+
+.spacingTop {
+
+  &__5 {
+    margin-top: 5%
+  }
+}
+
+.align-text {
+  
+  &__left {
+    text-align: left;
+  }
+}
+
+
+/* ----- GENERAL STYLING ----- */
+
+.App {
+  text-align: center;
+  padding: 5% 10% 10% 5%;
+  background-color: $background-grey
+}
+
+.title {
+  text-align: left;
+  margin-bottom: 3%;
+}
+
+.label {
+  text-align: left;
+  color: $label-grey;
+
+  &__marginLeft {
+    margin-left: 15px
+  }
+}
+
+.select {
+  margin-bottom: 5%;
+}
+
+.disabled-input {
+  border: 1px solid $border-grey;
+  width: 100%;
+  padding: 2%;
+  margin: 0px 15px;
+  text-align: left;
+}
+
+.request-data {
+  border: 0px;
+  background-color: white;
+  padding: 5%;
+  margin-top: 5%
+  
+}
